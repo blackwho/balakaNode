@@ -1,0 +1,309 @@
+body {
+  margin: 0px;
+  padding-top: 0px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: url('/images/bg.jpg') no-repeat left top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header
+{
+	padding-top: 20px;
+	height: 150px;
+	background: url('/images/headbg.png') no-repeat left top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.title
+{
+	color: white;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	padding:20px;
+	padding-top: 0px;
+	display: inline-block;
+
+}
+
+.title img
+{
+	width: 20vw;
+}
+
+.navbar
+{
+	float: right;
+	display: inline-block;
+	padding-top: 20px;
+	margin-right: 20px;
+}
+
+.navbar li
+{
+	list-style: none;
+	display: inline-block;
+	padding-left: 30px;
+}
+
+.jumbotron
+{
+	z-index: 1000;
+	padding-top: 100px;
+}
+
+#tagline
+{
+	background-color: rgba(0,0,0,0);
+}
+
+.container-index
+{
+	
+  background: url('/images/bodybg.png') no-repeat left top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position:fixed;
+	color: white;
+	height: 100vh;
+	width: 100vw;	
+}
+
+.index-content {
+	color: white;
+}
+
+.jumbotron h1
+{
+	
+	font-family: 'Monoton', cursive;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.jumbotron h2
+{
+	
+	font-family: 'Anton', cursive;
+	font-size: 56px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.jumbotron h3
+{
+	font-family: 'Anton', cursive;
+	font-size: 54px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.jumbotron h4
+{
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.playlist-div
+{
+	padding: 0;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+
+.playlist-select
+{
+	font-weight: 300; 
+	display: inline-block;
+	border: 2px solid white;
+	padding-left: 0px;
+}
+
+.playlist-select li
+{
+	width: 150px;
+	height: 30px;
+	padding-top: 5px;
+	display: inline-block;
+	list-style: none;
+
+}
+.playlist-select li:hover
+{
+	font-weight: 400;
+	cursor: pointer;
+}
+.playlist-select li.active
+{
+	width: 150px;
+	height: 30px;
+	padding-top: 5px;
+	display: inline-block;
+	list-style: none;
+	background-color: white;
+	color: black;
+
+}
+.playlist-now
+{
+	
+	display: inline-block;
+	padding-top: 20px;
+	margin-right: 20px;
+}
+.playlist-now li
+{
+	list-style: none;
+	display: inline-block;
+	border: 5px solid white;
+	
+}
+@media only screen and (min-width: 1000px) {
+	.playlist-now li img
+	{
+		width: 17vw;
+		height: 50vh;
+	}
+	.playlist-now li img:hover
+	{
+		width: 20vw;
+		height: 55vh;
+		cursor: pointer;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+	.playlist-now li img
+	{
+		width: 40vw;
+		height: 32vh;
+	}
+	.playlist-now li img:hover
+	{
+		width: 20vw;
+		height: 55vh;
+		cursor: pointer;
+	}
+	.playlist-div
+	{
+		margin-top: 20px;
+	}
+
+	.playlist-viewer
+	{
+		text-align: center;
+	}
+}
+a {
+  color: #00B7FF;
+}
+
+.hidden-sec
+{
+	display: none;
+}
+
+.playlist-viewer
+{
+	font-family: 'Roboto', sans-serif;
+}
+
+.playlist-viewer h1
+{
+	font-family: 'Alfa Slab One', cursive;
+	display: inline-block;
+}
+
+#genre-view
+{
+	display: inline-block;
+	padding-left: 20px;
+}
+
+#synopsis-more
+{
+	font-size: 12px;
+}
+
+#synopsis-more:hover
+{
+	color:#cc3300;
+	cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+}
+
+#show-view td, th {
+    border-bottom: 1px solid #ffffff;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:last-child td {
+
+	border-bottom: none;
+}
+
+#tool-view {
+
+	margin-top: 40px;
+	font-size: 20px;
+}
+
+.tool-btn
+{
+	display: inline-block;
+	padding: 10px;
+	border: 1px solid #ffffff;
+	border-radius:2px;
+}
+
+.tool-btn:hover
+{
+	color: black;
+	background-color: white;
+	cursor: pointer;
+}
+
+.vex.vex-theme-os 
+{
+	padding-top: 100px;
+}
+.vex.vex-theme-os .vex-content
+{
+	width: 800px;
+	padding: 0px;
+
+	text-align: center;
+}
+
+.vex.vex-theme-os .vex-dialog-form .vex-dialog-input {
+    margin-bottom: 0em;
+    display: none;
+}
+
+.vex.vex-theme-os .vex-content .vex-dialog-buttons
+{
+	width: 95%;
+	margin-bottom: 1em;
+	display: none;
+}
+
+footer 
+{
+	position: absolute;
+	bottom: 0px;
+	color: rgba(255,255,255,0.5);
+	text-align: right;
+	width: 97vw;
+}
